@@ -1,4 +1,4 @@
-# Feature name
+# NS_ENUMs should be considered Open
 
 * Proposal: [SE-NNNN](https://github.com/josephlord/swift-evolution/blob/master/proposals/0000-consider_ns_enums_open.md)
 * Author(s): [Joseph Lord](https://github.com/josephlord)
@@ -10,7 +10,7 @@
 Enums imported from C/Objective C could (as a result of library
 versioning or bugs) actually have raw values outside of the defined
 values. A default case should be required on switch statements involving
-them.
+them and the current undefined behaviour should be removed.
 
 Swift-evolution thread: [link to the discussion thread for that proposal](https://lists.swift.org/pipermail/swift-evolution)
 
